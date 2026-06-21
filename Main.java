@@ -26,12 +26,9 @@ public class Main {
         System.out.println("      MAA FASHION POINT");
         System.out.println("=================================");
 
-        System.out.println("\nAvailable Products:");
-
         double totalInventoryValue = 0;
 
         for (Product p : products) {
-
             double value = p.quantity * p.price;
             totalInventoryValue += value;
 
@@ -44,8 +41,6 @@ public class Main {
         }
 
         System.out.println("\nTotal Inventory Value: ₹" + totalInventoryValue);
-
         System.out.println("\nBuild Successful!");
     }
-}
 }
