@@ -1,2 +1,2 @@
 # Maa-Fashion-Point
-For Shoping 
+For Shopping purpose
